@@ -1,0 +1,6 @@
+instance_ami = "ami-03e88be9ecff64781"
+instance_type = "t2.medium"
+vpc_id = "vpc-0e9616196d8197b8f"
+az1_subnet = "subnet-02a3683fdc1e84841"
+az2_subnet = "subnet-0d5967cf24bc8f4bc"
+sentry_cert_arn = "arn:aws:acm:eu-west-2:767066941550:certificate/7b696185-75be-4f0f-b83b-fb709f0303c8"
