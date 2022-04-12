@@ -15,7 +15,7 @@ resource "aws_alb" "sentry_alb" {
 resource "aws_alb_target_group" "sentry_https" {
 	name	= "sentry-https"
 	vpc_id	= "${var.vpc_id}" 
-	port	= "443"
+	port	= "9000"
 	protocol	= "HTTPS"
 	health_check {
                 path = "/_health/"

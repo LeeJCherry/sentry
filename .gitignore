@@ -1,3 +1,8 @@
 .DS*
 .pem*
 .cer*
+environment.auto copy.tfvars
+.terraform
+sentry.pem
+terraform.tfstate
+terraform.tfstate.backup
