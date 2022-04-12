@@ -1,8 +1,9 @@
 
 ## Sentry Installation
 
-Created entire stack in AWS using Terraform
+Based on https://develop.sentry.dev/self-hosted/#getting-started
 
+Created stack in AWS using Terraform
 
 ### Deployment
 
