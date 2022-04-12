@@ -18,7 +18,7 @@ export AWS_DEFAULT_REGION="<YOUR_AWS_DEFAULT_REGION>"
 Install Terraform as described here
 https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started
 
-1. Download and extract the zip file
+1. Clone the repo
 2. Update `environment.auto.tfvars` with the required values depending on your environment.  You will need to create a AWS certificate within AWS and use the `arn` here
 3. Run `terraform plan` to validate the changes which are going to be made
 4. Run `terraform apply` to apply the changes
